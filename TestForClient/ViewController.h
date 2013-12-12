@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISlider *sliderOutlet;
+@property (weak, nonatomic) IBOutlet UIImageView *imageViewOutlet;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageBottomConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imageTopConstraint;
+- (IBAction)shareButtonIsPressed:(id)sender;
+- (IBAction)valueOfSliderChanged:(UISlider *)sender;
 
 @end

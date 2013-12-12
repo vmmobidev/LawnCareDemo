@@ -21,6 +21,31 @@
 		21BCAAB118433A4200962AD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BCAA9318433A4200962AD7 /* UIKit.framework */; };
 		21BCAAB918433A4200962AD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21BCAAB718433A4200962AD7 /* InfoPlist.strings */; };
 		21BCAABB18433A4200962AD7 /* TestForClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BCAABA18433A4200962AD7 /* TestForClientTests.m */; };
+		21BD133B1844A70F001F7905 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD133A1844A70F001F7905 /* MapViewController.m */; };
+		E4644A0A1859889300105980 /* Not_Sure.png in Resources */ = {isa = PBXBuildFile; fileRef = E4644A091859889300105980 /* Not_Sure.png */; };
+		E4BDB24018582B06006E5288 /* GrassTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB23F18582B06006E5288 /* GrassTypeViewController.m */; };
+		E4D8EBF71858652F00D71166 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EBE91858652F00D71166 /* Back.png */; };
+		E4D8EBF81858652F00D71166 /* Backgorun image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EBEA1858652F00D71166 /* Backgorun image.jpg */; };
+		E4D8EBFF1858652F00D71166 /* map1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EBF11858652F00D71166 /* map1.png */; };
+		E4D8EC001858652F00D71166 /* Next.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EBF21858652F00D71166 /* Next.png */; };
+		E4D8EC011858652F00D71166 /* number.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EBF31858652F00D71166 /* number.png */; };
+		E4D8EC021858652F00D71166 /* radio-button-off-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EBF41858652F00D71166 /* radio-button-off-icon.png */; };
+		E4D8EC031858652F00D71166 /* radio-button-on-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EBF51858652F00D71166 /* radio-button-on-icon.png */; };
+		E4D8EC041858652F00D71166 /* shareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EBF61858652F00D71166 /* shareButton.png */; };
+		E4D8EC071858678100D71166 /* ConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D8EC061858678100D71166 /* ConditionViewController.m */; };
+		E4D8EC0F1858703700D71166 /* lawn_state_7.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC081858703700D71166 /* lawn_state_7.png */; };
+		E4D8EC101858703700D71166 /* lawn_state_6.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC091858703700D71166 /* lawn_state_6.png */; };
+		E4D8EC111858703700D71166 /* lawn_state_5.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC0A1858703700D71166 /* lawn_state_5.png */; };
+		E4D8EC121858703700D71166 /* lawn_state_4.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC0B1858703700D71166 /* lawn_state_4.png */; };
+		E4D8EC131858703700D71166 /* lawn_state_3.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC0C1858703700D71166 /* lawn_state_3.png */; };
+		E4D8EC141858703700D71166 /* lawn_state_2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC0D1858703700D71166 /* lawn_state_2.png */; };
+		E4D8EC151858703700D71166 /* lawn_state_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC0E1858703700D71166 /* lawn_state_1.png */; };
+		E4D8EC641858941B00D71166 /* sunny 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC5E1858941B00D71166 /* sunny 1.jpg */; };
+		E4D8EC651858941B00D71166 /* sunny 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC5F1858941B00D71166 /* sunny 2.jpg */; };
+		E4D8EC661858941B00D71166 /* sunny 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC601858941B00D71166 /* sunny 3.jpg */; };
+		E4D8EC671858941B00D71166 /* sunny 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC611858941B00D71166 /* sunny 4.jpg */; };
+		E4D8EC681858941B00D71166 /* sunny 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC621858941B00D71166 /* sunny 5.jpg */; };
+		E4D8EC691858941B00D71166 /* sunny 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4D8EC631858941B00D71166 /* sunny 6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +59,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21BCAA8C18433A4200962AD7 /* TestForClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BCAA8C18433A4200962AD7 /* LawnCareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LawnCareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BCAA8F18433A4200962AD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21BCAA9118433A4200962AD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		21BCAA9318433A4200962AD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		21BCAA9718433A4200962AD7 /* TestForClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestForClient-Info.plist"; sourceTree = "<group>"; };
+		21BCAA9718433A4200962AD7 /* LawnCareDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LawnCareDemo-Info.plist"; sourceTree = "<group>"; };
 		21BCAA9918433A4200962AD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21BCAA9B18433A4200962AD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21BCAA9D18433A4200962AD7 /* TestForClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestForClient-Prefix.pch"; sourceTree = "<group>"; };
+		21BCAA9D18433A4200962AD7 /* LawnCareDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LawnCareDemo-Prefix.pch"; sourceTree = "<group>"; };
 		21BCAA9E18433A4200962AD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21BCAA9F18433A4200962AD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		21BCAAA218433A4200962AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21BCAAA418433A4200962AD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		21BCAAA518433A4200962AD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		21BCAAA718433A4200962AD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		21BCAAAD18433A4200962AD7 /* TestForClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BCAAAD18433A4200962AD7 /* LawnCareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LawnCareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BCAAAE18433A4200962AD7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		21BCAAB618433A4200962AD7 /* TestForClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestForClientTests-Info.plist"; sourceTree = "<group>"; };
+		21BCAAB618433A4200962AD7 /* LawnCareDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LawnCareDemoTests-Info.plist"; sourceTree = "<group>"; };
 		21BCAAB818433A4200962AD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21BCAABA18433A4200962AD7 /* TestForClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForClientTests.m; sourceTree = "<group>"; };
+		21BD13391844A70F001F7905 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		21BD133A1844A70F001F7905 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E4644A091859889300105980 /* Not_Sure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Not_Sure.png; sourceTree = "<group>"; };
+		E4BDB23E18582B06006E5288 /* GrassTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrassTypeViewController.h; sourceTree = "<group>"; };
+		E4BDB23F18582B06006E5288 /* GrassTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrassTypeViewController.m; sourceTree = "<group>"; };
+		E4D8EBE91858652F00D71166 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		E4D8EBEA1858652F00D71166 /* Backgorun image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Backgorun image.jpg"; sourceTree = "<group>"; };
+		E4D8EBF11858652F00D71166 /* map1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map1.png; sourceTree = "<group>"; };
+		E4D8EBF21858652F00D71166 /* Next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Next.png; sourceTree = "<group>"; };
+		E4D8EBF31858652F00D71166 /* number.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = number.png; sourceTree = "<group>"; };
+		E4D8EBF41858652F00D71166 /* radio-button-off-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-button-off-icon.png"; sourceTree = "<group>"; };
+		E4D8EBF51858652F00D71166 /* radio-button-on-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-button-on-icon.png"; sourceTree = "<group>"; };
+		E4D8EBF61858652F00D71166 /* shareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareButton.png; sourceTree = "<group>"; };
+		E4D8EC051858678100D71166 /* ConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionViewController.h; sourceTree = "<group>"; };
+		E4D8EC061858678100D71166 /* ConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionViewController.m; sourceTree = "<group>"; };
+		E4D8EC081858703700D71166 /* lawn_state_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawn_state_7.png; sourceTree = "<group>"; };
+		E4D8EC091858703700D71166 /* lawn_state_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawn_state_6.png; sourceTree = "<group>"; };
+		E4D8EC0A1858703700D71166 /* lawn_state_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawn_state_5.png; sourceTree = "<group>"; };
+		E4D8EC0B1858703700D71166 /* lawn_state_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawn_state_4.png; sourceTree = "<group>"; };
+		E4D8EC0C1858703700D71166 /* lawn_state_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawn_state_3.png; sourceTree = "<group>"; };
+		E4D8EC0D1858703700D71166 /* lawn_state_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawn_state_2.png; sourceTree = "<group>"; };
+		E4D8EC0E1858703700D71166 /* lawn_state_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lawn_state_1.png; sourceTree = "<group>"; };
+		E4D8EC5E1858941B00D71166 /* sunny 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunny 1.jpg"; sourceTree = "<group>"; };
+		E4D8EC5F1858941B00D71166 /* sunny 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunny 2.jpg"; sourceTree = "<group>"; };
+		E4D8EC601858941B00D71166 /* sunny 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunny 3.jpg"; sourceTree = "<group>"; };
+		E4D8EC611858941B00D71166 /* sunny 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunny 4.jpg"; sourceTree = "<group>"; };
+		E4D8EC621858941B00D71166 /* sunny 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunny 5.jpg"; sourceTree = "<group>"; };
+		E4D8EC631858941B00D71166 /* sunny 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunny 6.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +145,8 @@
 		21BCAA8D18433A4200962AD7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21BCAA8C18433A4200962AD7 /* TestForClient.app */,
-				21BCAAAD18433A4200962AD7 /* TestForClientTests.xctest */,
+				21BCAA8C18433A4200962AD7 /* LawnCareDemo.app */,
+				21BCAAAD18433A4200962AD7 /* LawnCareDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +170,13 @@
 				21BCAAA118433A4200962AD7 /* Main.storyboard */,
 				21BCAAA418433A4200962AD7 /* ViewController.h */,
 				21BCAAA518433A4200962AD7 /* ViewController.m */,
+				21BD13391844A70F001F7905 /* MapViewController.h */,
+				21BD133A1844A70F001F7905 /* MapViewController.m */,
+				E4BDB23E18582B06006E5288 /* GrassTypeViewController.h */,
+				E4BDB23F18582B06006E5288 /* GrassTypeViewController.m */,
+				E4D8EC051858678100D71166 /* ConditionViewController.h */,
+				E4D8EC061858678100D71166 /* ConditionViewController.m */,
+				E4D8EBE81858652F00D71166 /* Images */,
 				21BCAAA718433A4200962AD7 /* Images.xcassets */,
 				21BCAA9618433A4200962AD7 /* Supporting Files */,
 			);
@@ -126,10 +186,10 @@
 		21BCAA9618433A4200962AD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				21BCAA9718433A4200962AD7 /* TestForClient-Info.plist */,
+				21BCAA9718433A4200962AD7 /* LawnCareDemo-Info.plist */,
 				21BCAA9818433A4200962AD7 /* InfoPlist.strings */,
 				21BCAA9B18433A4200962AD7 /* main.m */,
-				21BCAA9D18433A4200962AD7 /* TestForClient-Prefix.pch */,
+				21BCAA9D18433A4200962AD7 /* LawnCareDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,18 +206,64 @@
 		21BCAAB518433A4200962AD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				21BCAAB618433A4200962AD7 /* TestForClientTests-Info.plist */,
+				21BCAAB618433A4200962AD7 /* LawnCareDemoTests-Info.plist */,
 				21BCAAB718433A4200962AD7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		21C4DC161847007400739FAE /* image of state of lawn */ = {
+			isa = PBXGroup;
+			children = (
+				E4D8EC081858703700D71166 /* lawn_state_7.png */,
+				E4D8EC091858703700D71166 /* lawn_state_6.png */,
+				E4D8EC0A1858703700D71166 /* lawn_state_5.png */,
+				E4D8EC0B1858703700D71166 /* lawn_state_4.png */,
+				E4D8EC0C1858703700D71166 /* lawn_state_3.png */,
+				E4D8EC0D1858703700D71166 /* lawn_state_2.png */,
+				E4D8EC0E1858703700D71166 /* lawn_state_1.png */,
+			);
+			name = "image of state of lawn";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E4D8EBE81858652F00D71166 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E4D8EBE91858652F00D71166 /* Back.png */,
+				E4D8EBEA1858652F00D71166 /* Backgorun image.jpg */,
+				E4D8EBF11858652F00D71166 /* map1.png */,
+				E4D8EBF21858652F00D71166 /* Next.png */,
+				E4D8EBF31858652F00D71166 /* number.png */,
+				E4D8EBF41858652F00D71166 /* radio-button-off-icon.png */,
+				E4D8EBF51858652F00D71166 /* radio-button-on-icon.png */,
+				E4D8EBF61858652F00D71166 /* shareButton.png */,
+				E4644A091859889300105980 /* Not_Sure.png */,
+				E4D8EC5D1858941B00D71166 /* Sunny images */,
+				21C4DC161847007400739FAE /* image of state of lawn */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E4D8EC5D1858941B00D71166 /* Sunny images */ = {
+			isa = PBXGroup;
+			children = (
+				E4D8EC5E1858941B00D71166 /* sunny 1.jpg */,
+				E4D8EC5F1858941B00D71166 /* sunny 2.jpg */,
+				E4D8EC601858941B00D71166 /* sunny 3.jpg */,
+				E4D8EC611858941B00D71166 /* sunny 4.jpg */,
+				E4D8EC621858941B00D71166 /* sunny 5.jpg */,
+				E4D8EC631858941B00D71166 /* sunny 6.jpg */,
+			);
+			path = "Sunny images";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21BCAA8B18433A4200962AD7 /* TestForClient */ = {
+		21BCAA8B18433A4200962AD7 /* LawnCareDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21BCAABE18433A4200962AD7 /* Build configuration list for PBXNativeTarget "TestForClient" */;
+			buildConfigurationList = 21BCAABE18433A4200962AD7 /* Build configuration list for PBXNativeTarget "LawnCareDemo" */;
 			buildPhases = (
 				21BCAA8818433A4200962AD7 /* Sources */,
 				21BCAA8918433A4200962AD7 /* Frameworks */,
@@ -167,14 +273,14 @@
 			);
 			dependencies = (
 			);
-			name = TestForClient;
+			name = LawnCareDemo;
 			productName = TestForClient;
-			productReference = 21BCAA8C18433A4200962AD7 /* TestForClient.app */;
+			productReference = 21BCAA8C18433A4200962AD7 /* LawnCareDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		21BCAAAC18433A4200962AD7 /* TestForClientTests */ = {
+		21BCAAAC18433A4200962AD7 /* LawnCareDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21BCAAC118433A4200962AD7 /* Build configuration list for PBXNativeTarget "TestForClientTests" */;
+			buildConfigurationList = 21BCAAC118433A4200962AD7 /* Build configuration list for PBXNativeTarget "LawnCareDemoTests" */;
 			buildPhases = (
 				21BCAAA918433A4200962AD7 /* Sources */,
 				21BCAAAA18433A4200962AD7 /* Frameworks */,
@@ -185,9 +291,9 @@
 			dependencies = (
 				21BCAAB318433A4200962AD7 /* PBXTargetDependency */,
 			);
-			name = TestForClientTests;
+			name = LawnCareDemoTests;
 			productName = TestForClientTests;
-			productReference = 21BCAAAD18433A4200962AD7 /* TestForClientTests.xctest */;
+			productReference = 21BCAAAD18433A4200962AD7 /* LawnCareDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +310,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 21BCAA8718433A4200962AD7 /* Build configuration list for PBXProject "TestForClient" */;
+			buildConfigurationList = 21BCAA8718433A4200962AD7 /* Build configuration list for PBXProject "LawnCareDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +323,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21BCAA8B18433A4200962AD7 /* TestForClient */,
-				21BCAAAC18433A4200962AD7 /* TestForClientTests */,
+				21BCAA8B18433A4200962AD7 /* LawnCareDemo */,
+				21BCAAAC18433A4200962AD7 /* LawnCareDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,9 +334,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D8EC141858703700D71166 /* lawn_state_2.png in Resources */,
+				E4D8EC131858703700D71166 /* lawn_state_3.png in Resources */,
+				E4D8EC691858941B00D71166 /* sunny 6.jpg in Resources */,
+				E4D8EBF71858652F00D71166 /* Back.png in Resources */,
 				21BCAAA818433A4200962AD7 /* Images.xcassets in Resources */,
+				E4D8EC031858652F00D71166 /* radio-button-on-icon.png in Resources */,
+				E4D8EC111858703700D71166 /* lawn_state_5.png in Resources */,
+				E4D8EC0F1858703700D71166 /* lawn_state_7.png in Resources */,
+				E4D8EBFF1858652F00D71166 /* map1.png in Resources */,
+				E4D8EC661858941B00D71166 /* sunny 3.jpg in Resources */,
 				21BCAA9A18433A4200962AD7 /* InfoPlist.strings in Resources */,
+				E4D8EC121858703700D71166 /* lawn_state_4.png in Resources */,
+				E4D8EC651858941B00D71166 /* sunny 2.jpg in Resources */,
 				21BCAAA318433A4200962AD7 /* Main.storyboard in Resources */,
+				E4D8EC641858941B00D71166 /* sunny 1.jpg in Resources */,
+				E4D8EC011858652F00D71166 /* number.png in Resources */,
+				E4D8EC041858652F00D71166 /* shareButton.png in Resources */,
+				E4D8EC151858703700D71166 /* lawn_state_1.png in Resources */,
+				E4D8EBF81858652F00D71166 /* Backgorun image.jpg in Resources */,
+				E4D8EC671858941B00D71166 /* sunny 4.jpg in Resources */,
+				E4D8EC681858941B00D71166 /* sunny 5.jpg in Resources */,
+				E4D8EC001858652F00D71166 /* Next.png in Resources */,
+				E4D8EC101858703700D71166 /* lawn_state_6.png in Resources */,
+				E4644A0A1859889300105980 /* Not_Sure.png in Resources */,
+				E4D8EC021858652F00D71166 /* radio-button-off-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +379,10 @@
 			files = (
 				21BCAAA618433A4200962AD7 /* ViewController.m in Sources */,
 				21BCAAA018433A4200962AD7 /* AppDelegate.m in Sources */,
+				E4D8EC071858678100D71166 /* ConditionViewController.m in Sources */,
 				21BCAA9C18433A4200962AD7 /* main.m in Sources */,
+				E4BDB24018582B06006E5288 /* GrassTypeViewController.m in Sources */,
+				21BD133B1844A70F001F7905 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +399,7 @@
 /* Begin PBXTargetDependency section */
 		21BCAAB318433A4200962AD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 21BCAA8B18433A4200962AD7 /* TestForClient */;
+			target = 21BCAA8B18433A4200962AD7 /* LawnCareDemo */;
 			targetProxy = 21BCAAB218433A4200962AD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -318,7 +449,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -357,7 +489,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: senthilnathan Karuppaiah (7452NP5KW8)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -379,9 +512,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestForClient/TestForClient-Prefix.pch";
-				INFOPLIST_FILE = "TestForClient/TestForClient-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TestForClient/LawnCareDemo-Prefix.pch";
+				INFOPLIST_FILE = "TestForClient/LawnCareDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = LawnCareDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,9 +526,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestForClient/TestForClient-Prefix.pch";
-				INFOPLIST_FILE = "TestForClient/TestForClient-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TestForClient/LawnCareDemo-Prefix.pch";
+				INFOPLIST_FILE = "TestForClient/LawnCareDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = LawnCareDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +550,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TestForClientTests/TestForClientTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TestForClientTests/LawnCareDemoTests-Info.plist";
+				PRODUCT_NAME = LawnCareDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -434,8 +569,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestForClient/TestForClient-Prefix.pch";
-				INFOPLIST_FILE = "TestForClientTests/TestForClientTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TestForClientTests/LawnCareDemoTests-Info.plist";
+				PRODUCT_NAME = LawnCareDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21BCAA8718433A4200962AD7 /* Build configuration list for PBXProject "TestForClient" */ = {
+		21BCAA8718433A4200962AD7 /* Build configuration list for PBXProject "LawnCareDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21BCAABC18433A4200962AD7 /* Debug */,
@@ -453,21 +588,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21BCAABE18433A4200962AD7 /* Build configuration list for PBXNativeTarget "TestForClient" */ = {
+		21BCAABE18433A4200962AD7 /* Build configuration list for PBXNativeTarget "LawnCareDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21BCAABF18433A4200962AD7 /* Debug */,
 				21BCAAC018433A4200962AD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		21BCAAC118433A4200962AD7 /* Build configuration list for PBXNativeTarget "TestForClientTests" */ = {
+		21BCAAC118433A4200962AD7 /* Build configuration list for PBXNativeTarget "LawnCareDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21BCAAC218433A4200962AD7 /* Debug */,
 				21BCAAC318433A4200962AD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
