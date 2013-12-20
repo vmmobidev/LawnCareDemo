@@ -11,6 +11,7 @@
 @interface ConditionViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewOutlet;
 @property (weak, nonatomic) IBOutlet UISlider *sliderOulet;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *imgBottomConstraint;
 - (IBAction)backBtnAction:(UIButton *)sender;
 - (IBAction)sliderValueChanged:(UISlider *)sender;
 
